@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" fill="none">
+  <!-- wind leaf mark -->
+  <path d="M8 28 C8 16 18 8 30 10 C22 14 18 20 20 28 Z" fill="#FFE70B"/>
+  <path d="M20 28 C20 18 28 12 38 16 C30 18 26 24 28 32 Z" fill="#131211" opacity=".8"/>
+  <!-- wordmark -->
+  <text x="46" y="30" font-family="'Figtree', sans-serif" font-weight="800" font-size="22" fill="#131211" letter-spacing="-0.3">Ventoforte</text>
+</svg>

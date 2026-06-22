@@ -1,0 +1,386 @@
+{
+  "title": "City Plaza Main",
+  "headerText": "",
+  "navLinks": [],
+  "footerText": "",
+  "allImgs": [
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza/theme-config/images/logo.svg",
+      "alt": "City Plaza Main",
+      "w": 149,
+      "h": 33
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/06/64-menu-home-1.webp",
+      "alt": "",
+      "w": 420,
+      "h": 230
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/06/64-menu-home-2.webp",
+      "alt": "",
+      "w": 420,
+      "h": 230
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/06/64-menu-3.webp",
+      "alt": "",
+      "w": 420,
+      "h": 230
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-directorie-logo-white-9.svg",
+      "alt": "",
+      "w": 241,
+      "h": 36
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-directorie-logo-white-8.svg",
+      "alt": "",
+      "w": 241,
+      "h": 121
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-directorie-logo-white-2.svg",
+      "alt": "",
+      "w": 241,
+      "h": 51
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-directorie-logo-white-7.svg",
+      "alt": "",
+      "w": 240,
+      "h": 52
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-directorie-logo-white-1.svg",
+      "alt": "",
+      "w": 240,
+      "h": 46
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-directorie-logo-white-3.svg",
+      "alt": "",
+      "w": 241,
+      "h": 78
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-directorie-logo-white-6.svg",
+      "alt": "",
+      "w": 241,
+      "h": 104
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-directorie-logo-white-5.svg",
+      "alt": "",
+      "w": 241,
+      "h": 64
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-directorie-logo-white-4.svg",
+      "alt": "",
+      "w": 240,
+      "h": 61
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-2.webp",
+      "alt": "",
+      "w": 225,
+      "h": 225
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-4.webp",
+      "alt": "",
+      "w": 225,
+      "h": 225
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-3.webp",
+      "alt": "",
+      "w": 225,
+      "h": 225
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-5-600x473.webp",
+      "alt": "",
+      "w": 600,
+      "h": 473
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-6-600x473.webp",
+      "alt": "",
+      "w": 600,
+      "h": 473
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-7-600x473.webp",
+      "alt": "",
+      "w": 600,
+      "h": 473
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-8-600x473.webp",
+      "alt": "",
+      "w": 600,
+      "h": 473
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-1-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-1",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-2-r7calcr8mjzk0aja91odm2ophq3k41ekiijm39bdmg.webp",
+      "alt": "64-event-2",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-5-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-5",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-3-r7cak5inw6cd68a39izjfdli600o9ymx0kja0j3hko.webp",
+      "alt": "64-event-3",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-4-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-4",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-6-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-6",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-1-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-1",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-2-r7calcr8mjzk0aja91odm2ophq3k41ekiijm39bdmg.webp",
+      "alt": "64-event-2",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-5-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-5",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-3-r7cak5inw6cd68a39izjfdli600o9ymx0kja0j3hko.webp",
+      "alt": "64-event-3",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-4-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-4",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-6-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-6",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-1-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-1",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-2-r7calcr8mjzk0aja91odm2ophq3k41ekiijm39bdmg.webp",
+      "alt": "64-event-2",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-5-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-5",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-3-r7cak5inw6cd68a39izjfdli600o9ymx0kja0j3hko.webp",
+      "alt": "64-event-3",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-4-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-4",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-event-6-r6t0yjulfou9sq0q7a2e7db7zo0apx1q0ik91xrvso.webp",
+      "alt": "64-event-6",
+      "w": 428,
+      "h": 300
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-10.webp",
+      "alt": "",
+      "w": 280,
+      "h": 225
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-blog-1-r74xqc1rhmt9e5lp42kst5q01nua7qs6dn01godkns.webp",
+      "alt": "64-blog-1",
+      "w": 317,
+      "h": 220
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-blog-2-r6t0yjuk30e092xt8vanpbpccwuowhsjhlru97609k.webp",
+      "alt": "64-blog-2",
+      "w": 317,
+      "h": 220
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-blog-3-r6t0yjuk30e092xt8vanpbpccwuowhsjhlru97609k.webp",
+      "alt": "64-blog-3",
+      "w": 317,
+      "h": 220
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/elementor/thumbs/64-blog-4-r6t0yjuk30e092xt8vanpbpccwuowhsjhlru97609k.webp",
+      "alt": "64-blog-4",
+      "w": 317,
+      "h": 220
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-12.webp",
+      "alt": "",
+      "w": 225,
+      "h": 225
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/05/64-home-13.webp",
+      "alt": "",
+      "w": 225,
+      "h": 225
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/uploads/sites/10/2025/06/logo-footer.svg",
+      "alt": "City Plaza Main",
+      "w": 1356,
+      "h": 288
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/main.jpg",
+      "alt": "Main",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/cotton-candy.jpg",
+      "alt": "Cotton Candy",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/tiffany-blue.jpg",
+      "alt": "Tiffany Blue",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/lime-neon.jpg",
+      "alt": "Lime Neon",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/lavender.jpg",
+      "alt": "Lavender",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/fusion-coral.jpg",
+      "alt": "Fusion Coral",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/ice-blue.jpg",
+      "alt": "Ice Blue",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/tangerine.jpg",
+      "alt": "Tangerine",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/assets/images/skins.svg",
+      "alt": "skins",
+      "w": 272,
+      "h": 87
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/main.jpg",
+      "alt": "Main",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/cotton-candy.jpg",
+      "alt": "Cotton Candy",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/tiffany-blue.jpg",
+      "alt": "Tiffany Blue",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/lime-neon.jpg",
+      "alt": "Lime Neon",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/lavender.jpg",
+      "alt": "Lavender",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/fusion-coral.jpg",
+      "alt": "Fusion Coral",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/ice-blue.jpg",
+      "alt": "Ice Blue",
+      "w": 310,
+      "h": 157
+    },
+    {
+      "src": "https://city-plaza.cmsmasters.studio/main/wp-content/themes/city-plaza-child-demo/demos-config/images/tangerine.jpg",
+      "alt": "Tangerine",
+      "w": 310,
+      "h": 157
+    }
+  ]
+}

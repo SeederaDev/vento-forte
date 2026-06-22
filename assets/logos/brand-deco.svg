@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 150" fill="none">
+  <!-- SuperStore (script bianco) -->
+  <text x="14" y="62" font-family="'Segoe Script','Brush Script MT',cursive"
+        font-size="40" font-weight="700" font-style="italic" fill="#ffffff">SuperStore</text>
+  <!-- anello -->
+  <circle cx="262" cy="100" r="56" stroke="#ffffff" stroke-width="5" fill="none"/>
+  <!-- Decò -->
+  <text x="206" y="120" font-family="'Trebuchet MS',Arial,sans-serif"
+        font-size="58" font-weight="800" letter-spacing="-1" fill="#ffffff">Decò</text>
+  <!-- accento rosso -->
+  <path d="M300 60 q22 -6 30 10 q-20 2 -30 -10 z" fill="#e1352a"/>
+</svg>
