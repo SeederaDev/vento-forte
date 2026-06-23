@@ -236,6 +236,23 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .round-btn{width:48px;height:48px;border-radius:50%;background:var(--yellow);color:var(--ink);font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;transition:transform .25s,background .25s}
 .round-btn:hover{transform:scale(1.08)}
 
+/* ===================== PUBBLICITÀ / LED WALL ===================== */
+.adv{background:var(--ink);color:var(--white);padding:96px 0;overflow:hidden}
+.adv__inner{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.adv__text .section-title{margin:6px 0 18px}
+.adv__text p{color:rgba(255,255,255,.82);font-size:17px;max-width:470px;margin-bottom:22px}
+.adv__points{display:flex;flex-direction:column;gap:12px;margin-bottom:30px}
+.adv__points li{position:relative;padding-left:30px;font-weight:600;font-size:15px;color:#fff}
+.adv__points li::before{content:"";position:absolute;left:0;top:2px;width:18px;height:18px;border-radius:50%;background:var(--yellow);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23131211' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l4 4 10-10'/%3E%3C/svg%3E");background-size:12px;background-repeat:no-repeat;background-position:center}
+.adv__totem{justify-self:center;width:240px;display:flex;flex-direction:column;align-items:center;gap:12px;filter:drop-shadow(0 30px 55px rgba(0,0,0,.55))}
+.adv__totem-top{width:100%;background:linear-gradient(135deg,#b3122a,#7a0c1d);border-radius:14px;padding:20px 16px;display:flex;justify-content:center}
+.adv__totem-top img{height:46px;width:auto;filter:brightness(0) invert(1)}
+.adv__totem-screen{width:168px;background:linear-gradient(180deg,#39b2ec,#0b6fb0);border-radius:12px;padding:13px;display:flex;flex-direction:column;gap:11px}
+.adv__slot{background:#fff;border-radius:8px;height:56px;display:flex;align-items:center;justify-content:center;padding:9px}
+.adv__slot img{max-height:32px;max-width:86%;object-fit:contain}
+.adv__slot--you{background:var(--yellow);color:var(--ink);font-weight:800;font-size:13px;letter-spacing:.01em;text-align:center}
+
 /* ===================== BRANDS ===================== */
 .brands{padding:104px 0}
 .brands__grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;margin:54px 0 48px}
@@ -407,6 +424,9 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   .nav__link::before{display:none}
   .burger{display:flex}
   .visit__grid{grid-template-columns:1fr 1fr}
+  .adv__inner{grid-template-columns:1fr;gap:40px;text-align:center}
+  .adv__text p,.adv__points{margin-inline:auto}
+  .adv__points{display:inline-flex;text-align:left}
   .plan__inner{grid-template-columns:1fr;gap:60px}
   .plan__inset{left:auto;right:0}
   .access__inner{grid-template-columns:1fr;gap:30px;padding:80px 30px}
