@@ -1,0 +1,20 @@
+# ============================================================
+#  PROTEZIONE SITO CON PASSWORD (HTTP Basic Auth)
+#  Per attivarla: rinomina questo file in ".htaccess"
+#  e carica anche il file ".htpasswd" (vedi GUIDA-PASSWORD.md).
+#
+#  ⚠️ ATTENZIONE: la riga AuthUserFile vuole il PERCORSO ASSOLUTO
+#  sul server. Se è sbagliato, il sito risponde "500".
+#  Su Plesk il percorso è di solito:
+#     /var/www/vhosts/ventoforte.it/httpdocs/.htpasswd
+#  (Plesk lo mostra in File Manager → proprietà del file)
+#
+#  Se non te la senti di toccare i percorsi, NON usare questo file:
+#  usa il metodo dal pannello Plesk (più semplice e sicuro),
+#  spiegato nella GUIDA-PASSWORD.md.
+# ============================================================
+
+AuthType Basic
+AuthName "Area riservata — Ventoforte"
+AuthUserFile /var/www/vhosts/ventoforte.it/httpdocs/.htpasswd
+Require valid-user
