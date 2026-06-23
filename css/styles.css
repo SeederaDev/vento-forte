@@ -147,7 +147,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .stat__num{
   font-family:var(--font-body);
   font-weight:900;
-  font-size:clamp(58px,7.4vw,128px);
+  font-size:clamp(42px,5vw,84px);
   line-height:.9;
   color:var(--ink);
   letter-spacing:-0.04em;
