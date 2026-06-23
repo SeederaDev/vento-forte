@@ -263,14 +263,16 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 /* ===================== MARQUEE ===================== */
 .marquee-wrap{position:relative;height:200px;margin:30px 0 0;overflow:hidden}
 .marquee{position:absolute;left:-6%;width:112%;padding:14px 0;white-space:nowrap;overflow:hidden}
-.marquee--yellow{top:60px;background:var(--yellow);color:var(--ink);transform:rotate(-3.5deg);z-index:2}
-.marquee--dark{top:96px;background:#3a3a3a;color:var(--white);transform:rotate(2.5deg);z-index:1}
+.marquee--yellow{top:60px;background:var(--yellow);color:var(--ink);transform:rotate(-3.5deg);transform-origin:center;z-index:2;animation:swing-yellow 5s ease-in-out infinite}
+.marquee--dark{top:96px;background:#3a3a3a;color:var(--white);transform:rotate(2.5deg);transform-origin:center;z-index:1;animation:swing-dark 5.5s ease-in-out infinite}
 .marquee__track{display:inline-flex;gap:0;animation:marq 26s linear infinite}
 .marquee__track--rev{animation-direction:reverse;animation-duration:30s}
 .marquee span{font-family:var(--font-display);font-size:26px;font-weight:400;padding:0 26px;display:inline-flex;align-items:center;gap:24px}
 .marquee i{font-style:normal;opacity:.85}
 @keyframes marq{to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){.marquee__track{animation:none}}
+@keyframes swing-yellow{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(0deg)}}
+@keyframes swing-dark{0%,100%{transform:rotate(5deg)}50%{transform:rotate(-1deg)}}
+@media (prefers-reduced-motion:reduce){.marquee__track,.marquee--yellow,.marquee--dark{animation:none}}
 
 /* ===================== SERVICES ===================== */
 .services{padding:96px 0}
