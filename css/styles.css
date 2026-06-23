@@ -237,8 +237,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .round-btn:hover{transform:scale(1.08)}
 
 /* ===================== PUBBLICITÀ / LED WALL ===================== */
-.adv{background:var(--ink);color:var(--white);padding:96px 0;overflow:hidden}
+.adv{background:#F0474B;color:var(--white);padding:96px 0;overflow:hidden}
 .adv__inner{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.adv__media{justify-self:center;display:flex;align-items:center;justify-content:center;width:100%;min-height:260px;border-radius:18px;background:rgba(0,0,0,.12)}
+.adv__photo{width:auto;max-width:100%;max-height:540px;border-radius:18px;box-shadow:0 28px 60px rgba(0,0,0,.4)}
 .adv__text .section-title{margin:6px 0 18px}
 .adv__text p{color:rgba(255,255,255,.82);font-size:17px;max-width:470px;margin-bottom:22px}
 .adv__points{display:flex;flex-direction:column;gap:12px;margin-bottom:30px}
