@@ -208,9 +208,9 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .visit{background:var(--ink);padding:96px 0 110px;color:var(--white)}
 .visit__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:54px}
 .visit-card{position:relative;height:360px;border-radius:var(--radius);background-size:cover;background-position:center;overflow:hidden;display:flex;align-items:flex-end;padding:18px}
-.visit-card--soon{background:linear-gradient(150deg,#0d2b3a,#15394d)}
-.visit-card--soon::after{display:none}
-.arrow-btn--plus{background:transparent;border:1.5px solid var(--ink);font-size:24px}
+.visit-card--cta{background:var(--yellow);align-items:center;justify-content:center;text-align:center;padding:32px}
+.visit-card--cta::after{display:none}
+.visit-cta h3{font-family:var(--font-display);font-weight:400;font-size:clamp(24px,2.1vw,32px);line-height:1.12;color:var(--ink);margin-bottom:24px}
 .visit-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.35));pointer-events:none}
 .visit-card__panel{position:relative;z-index:2;width:100%;background:var(--white);color:var(--ink);border-radius:16px;padding:20px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .visit-card__panel h3{font-size:21px;font-weight:700;margin-bottom:4px}
