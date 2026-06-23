@@ -54,10 +54,11 @@
     <div class="contact__intro reveal">
       <span class="eyebrow-tag">Spazi commerciali</span>
       <h2 class="section-title">Apri il tuo negozio<br>nel parco</h2>
-      <p class="muted">Vuoi portare la tua insegna a Ventoforte? Siamo all'uscita A1 di Caianello, con 500 posti auto gratuiti e migliaia di famiglie ogni settimana. Raccontaci la tua idea: ti ricontatteremo per parlarne insieme.</p>
+      <p class="muted">Vuoi portare la tua insegna a Ventoforte? Offriamo spazi sia per <strong>negozi permanenti</strong> sia per <strong>temporary store e pop-up</strong>, all'uscita A1 di Caianello, con 500 posti auto gratuiti e migliaia di famiglie ogni settimana. Raccontaci la tua idea: ti ricontatteremo per parlarne insieme.</p>
       <ul class="contact__points">
         <li>Posizione strategica sull'autostrada A1</li>
         <li>Ampio bacino di clienti dell'Alto Casertano</li>
+        <li>Soluzioni per negozi permanenti e temporary store</li>
         <li>Spazi flessibili e parcheggio gratuito</li>
       </ul>
 
@@ -88,8 +89,16 @@
         </div>
       </div>
       <div class="field">
+        <label for="c-tipo">Tipo di spazio</label>
+        <select id="c-tipo" name="tipologia">
+          <option value="Negozio permanente">Negozio permanente</option>
+          <option value="Temporary store / pop-up">Temporary store / pop-up</option>
+          <option value="Da valutare insieme">Sono indeciso, valutiamo insieme</option>
+        </select>
+      </div>
+      <div class="field">
         <label for="c-msg">Messaggio</label>
-        <textarea id="c-msg" name="messaggio" rows="4" placeholder="Tipo di attività, mq desiderati, tempistiche…"></textarea>
+        <textarea id="c-msg" name="messaggio" rows="4" placeholder="Tipo di attività, mq desiderati, durata (per i temporary store), tempistiche…"></textarea>
       </div>
       <!-- honeypot anti-spam: non compilare -->
       <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />

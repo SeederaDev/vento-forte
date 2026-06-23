@@ -347,8 +347,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .field{display:flex;flex-direction:column;margin-bottom:16px}
 .field-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .field label{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:7px}
-.field input,.field textarea{font-family:inherit;font-size:15px;color:var(--ink);background:var(--cream);border:1.5px solid transparent;border-radius:12px;padding:13px 15px;transition:border-color .2s,background .2s;width:100%;resize:vertical}
-.field input:focus,.field textarea:focus{outline:none;border-color:var(--yellow);background:var(--white)}
+.field input,.field textarea,.field select{font-family:inherit;font-size:15px;color:var(--ink);background:var(--cream);border:1.5px solid transparent;border-radius:12px;padding:13px 15px;transition:border-color .2s,background .2s;width:100%;resize:vertical}
+.field select{appearance:none;-webkit-appearance:none;cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23131211' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:16px;padding-right:40px}
+.field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--yellow);background-color:var(--white)}
 .contact__form .btn{width:100%;margin-top:6px}
 .form-status{font-size:14px;font-weight:600;margin-top:14px;min-height:1px;text-align:center}
 .form-status.is-ok{color:#1a7f4b}
