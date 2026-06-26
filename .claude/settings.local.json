@@ -14,7 +14,13 @@
       "WebFetch(domain:www.ottopagine.it)",
       "WebFetch(domain:supermercatideco.multicedi.it)",
       "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Ercole\\\\Downloads\" -File | Where-Object {$_.Extension -match '\\\\.\\(png|jpg|jpeg|webp|svg\\)$'} | Select-Object Name, LastWriteTime | Sort-Object LastWriteTime -Descending | Select-Object -First 20)",
-      "WebFetch(domain:www.intelligentstore.it)"
+      "WebFetch(domain:www.intelligentstore.it)",
+      "Bash(file assets/img/brand-*.png.jpeg)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Aggiunti loghi brand \\(clienti\\) e aggiornamenti index/styles *)",
+      "Bash(git push *)",
+      "Bash(rm -f /Users/daniele/vento-forte/.git/index.lock)",
+      "Bash(ls -lt ~/Downloads 2>/dev/null | head -10; echo \"--- desktop ---\"; ls -lt ~/Desktop 2>/dev/null | head -10)"
     ]
   }
 }
