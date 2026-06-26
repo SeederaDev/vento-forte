@@ -236,6 +236,13 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .round-btn{width:48px;height:48px;border-radius:50%;background:var(--yellow);color:var(--ink);font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;transition:transform .25s,background .25s}
 .round-btn:hover{transform:scale(1.08)}
 
+/* ===================== APRI IL TUO NEGOZIO ===================== */
+.open-store{background:var(--yellow);color:var(--ink);padding:90px 0;text-align:center}
+.open-store__inner{max-width:720px;margin-inline:auto}
+.eyebrow-tag--dark{background:var(--ink);color:#fff}
+.open-store .section-title{font-size:clamp(32px,4vw,56px);margin-bottom:18px}
+.open-store p{font-size:18px;line-height:1.6;color:rgba(19,18,17,.78);margin:0 auto 28px;max-width:600px}
+
 /* ===================== PUBBLICITÀ / LED WALL ===================== */
 .adv{background:#F0474B;color:var(--white);padding:96px 0;overflow:hidden}
 .adv__inner{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
