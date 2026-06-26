@@ -7,3 +7,6 @@ php/_data/
 # File di sistema
 .DS_Store
 Thumbs.db
+
+# Config locale Claude Code — non versionare
+.claude/
