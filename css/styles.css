@@ -3,7 +3,7 @@
    Tokens extracted from city-plaza.cmsmasters.studio/main
 =================================================================== */
 :root{
-  --yellow:#2fc6ff;
+  --yellow:#80dcff;
   --ink:#131211;
   --ink-2:#151515;
   --dark:#1a1917;
@@ -175,8 +175,8 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   text-align:center;
   font-family:var(--font-body);
   font-weight:600;
-  font-size:clamp(17px,1.4vw,21px);
-  line-height:1.62;
+  font-size:clamp(17px,1.4vw,20px);
+  line-height:1.5;
   color:var(--ink);
   max-width:360px;
 }
@@ -208,9 +208,9 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .visit{background:var(--ink);padding:96px 0 110px;color:var(--white)}
 .visit__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:54px}
 .visit-card{position:relative;height:360px;border-radius:var(--radius);background-size:cover;background-position:center;overflow:hidden;display:flex;align-items:flex-end;padding:18px}
-.visit-card--soon{background:linear-gradient(150deg,#0d2b3a,#15394d)}
-.visit-card--soon::after{display:none}
-.arrow-btn--plus{background:transparent;border:1.5px solid var(--ink);font-size:24px}
+.visit-card--cta{background:var(--yellow);align-items:center;justify-content:center;text-align:center;padding:32px}
+.visit-card--cta::after{display:none}
+.visit-cta h3{font-family:var(--font-display);font-weight:400;font-size:clamp(24px,2.1vw,32px);line-height:1.12;color:var(--ink);margin-bottom:24px}
 .visit-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.35));pointer-events:none}
 .visit-card__panel{position:relative;z-index:2;width:100%;background:var(--white);color:var(--ink);border-radius:16px;padding:20px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .visit-card__panel h3{font-size:21px;font-weight:700;margin-bottom:4px}
@@ -235,6 +235,25 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .events__nav{display:flex;justify-content:center;gap:14px;margin-top:40px}
 .round-btn{width:48px;height:48px;border-radius:50%;background:var(--yellow);color:var(--ink);font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;transition:transform .25s,background .25s}
 .round-btn:hover{transform:scale(1.08)}
+
+/* ===================== PUBBLICITÀ / LED WALL ===================== */
+.adv{background:#F0474B;color:var(--white);padding:96px 0;overflow:hidden}
+.adv__inner{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.adv__media{justify-self:center;display:flex;align-items:center;justify-content:center;width:100%;min-height:260px;border-radius:18px;background:rgba(0,0,0,.12)}
+.adv__photo{width:auto;max-width:100%;max-height:540px;border-radius:18px;box-shadow:0 28px 60px rgba(0,0,0,.4)}
+.adv__text .section-title{margin:6px 0 18px}
+.adv__text p{color:rgba(255,255,255,.82);font-size:17px;max-width:470px;margin-bottom:22px}
+.adv__points{display:flex;flex-direction:column;gap:12px;margin-bottom:30px}
+.adv__points li{position:relative;padding-left:30px;font-weight:600;font-size:15px;color:#fff}
+.adv__points li::before{content:"";position:absolute;left:0;top:2px;width:18px;height:18px;border-radius:50%;background:var(--yellow);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23131211' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l4 4 10-10'/%3E%3C/svg%3E");background-size:12px;background-repeat:no-repeat;background-position:center}
+.adv__totem{justify-self:center;width:240px;display:flex;flex-direction:column;align-items:center;gap:12px;filter:drop-shadow(0 30px 55px rgba(0,0,0,.55))}
+.adv__totem-top{width:100%;background:linear-gradient(135deg,#b3122a,#7a0c1d);border-radius:14px;padding:20px 16px;display:flex;justify-content:center}
+.adv__totem-top img{height:46px;width:auto;filter:brightness(0) invert(1)}
+.adv__totem-screen{width:168px;background:linear-gradient(180deg,#39b2ec,#0b6fb0);border-radius:12px;padding:13px;display:flex;flex-direction:column;gap:11px}
+.adv__slot{background:#fff;border-radius:8px;height:56px;display:flex;align-items:center;justify-content:center;padding:9px}
+.adv__slot img{max-height:32px;max-width:86%;object-fit:contain}
+.adv__slot--you{background:var(--yellow);color:var(--ink);font-weight:800;font-size:13px;letter-spacing:.01em;text-align:center}
 
 /* ===================== BRANDS ===================== */
 .brands{padding:104px 0}
@@ -280,15 +299,24 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .svc-ico{flex:0 0 auto;width:30px;height:30px;color:var(--ink);display:flex;align-items:center;justify-content:center}
 .svc-ico svg{width:28px;height:28px}
 
-/* ===================== NEWS ===================== */
-.news{background:var(--cream);padding:100px 0}
-.news__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin:54px 0 48px}
-.news-card{background:var(--white);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
-.news-card__img{position:relative;height:200px;background-size:cover;background-position:center}
-.news-card__body{padding:28px 22px 26px;display:flex;flex-direction:column;align-items:flex-start;gap:11px;flex:1}
-.news-card__body .date{color:var(--muted);font-size:13px;font-weight:500}
-.news-card__body h3{font-size:19px;font-weight:700;line-height:1.3}
-.news-card__body p{font-size:14px;color:var(--muted);flex:1}
+/* ===================== INSTAGRAM ===================== */
+.instagram{background:var(--cream);padding:100px 0}
+.ig__head{max-width:620px;margin:0 auto 46px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.ig__head .section-title{font-size:clamp(32px,4vw,58px)}
+.ig__head .muted{margin:14px 0 24px}
+.ig__follow{align-self:center}
+.ig__feed{min-height:120px}
+.ig__preview{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.ig__tile{position:relative;aspect-ratio:1;border-radius:14px;overflow:hidden;display:block;background:var(--stone)}
+.ig__tile img{width:100%;height:100%;object-fit:cover;transition:transform .45s var(--ease)}
+.ig__tile::after{content:"";position:absolute;inset:0;background:rgba(19,18,17,0);transition:background .3s}
+.ig__tile:hover img{transform:scale(1.07)}
+.ig__tile:hover::after{background:rgba(19,18,17,.22)}
+.ig__ico{position:absolute;inset:0;margin:auto;width:30px;height:30px;opacity:0;transform:scale(.8);transition:.3s;z-index:2;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2'%3E%3Crect x='3' y='3' width='18' height='18' rx='5'/%3E%3Ccircle cx='12' cy='12' r='4'/%3E%3Ccircle cx='17.5' cy='6.5' r='1' fill='%23ffffff' stroke='none'/%3E%3C/svg%3E") center/contain no-repeat}
+.ig__tile:hover .ig__ico{opacity:1;transform:scale(1)}
+/* widget LightWidget incollato dall'utente */
+.lightwidget-widget{width:100%!important;border:0;overflow:hidden}
 
 /* ===================== ACCESS CTA ===================== */
 .access{position:relative;overflow:hidden;color:var(--white)}
@@ -321,8 +349,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .field{display:flex;flex-direction:column;margin-bottom:16px}
 .field-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .field label{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:7px}
-.field input,.field textarea{font-family:inherit;font-size:15px;color:var(--ink);background:var(--cream);border:1.5px solid transparent;border-radius:12px;padding:13px 15px;transition:border-color .2s,background .2s;width:100%;resize:vertical}
-.field input:focus,.field textarea:focus{outline:none;border-color:var(--yellow);background:var(--white)}
+.field input,.field textarea,.field select{font-family:inherit;font-size:15px;color:var(--ink);background:var(--cream);border:1.5px solid transparent;border-radius:12px;padding:13px 15px;transition:border-color .2s,background .2s;width:100%;resize:vertical}
+.field select{appearance:none;-webkit-appearance:none;cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23131211' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:16px;padding-right:40px}
+.field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--yellow);background-color:var(--white)}
 .contact__form .btn{width:100%;margin-top:6px}
 .form-status{font-size:14px;font-weight:600;margin-top:14px;min-height:1px;text-align:center}
 .form-status.is-ok{color:#1a7f4b}
@@ -382,7 +412,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   .services__inner{grid-template-columns:1fr;gap:30px}
   .services__grid{grid-template-columns:repeat(2,1fr)}
   .event-card{flex:0 0 calc((100% - 48px)/3)}
-  .news__grid{grid-template-columns:repeat(2,1fr)}
+  .ig__preview{grid-template-columns:repeat(3,1fr)}
   .brands__grid{grid-template-columns:repeat(4,1fr)}
   .footer__wordmark span{font-size:15vw}
 }
@@ -398,6 +428,9 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   .nav__link::before{display:none}
   .burger{display:flex}
   .visit__grid{grid-template-columns:1fr 1fr}
+  .adv__inner{grid-template-columns:1fr;gap:40px;text-align:center}
+  .adv__text p,.adv__points{margin-inline:auto}
+  .adv__points{display:inline-flex;text-align:left}
   .plan__inner{grid-template-columns:1fr;gap:60px}
   .plan__inset{left:auto;right:0}
   .access__inner{grid-template-columns:1fr;gap:30px;padding:80px 30px}
@@ -412,7 +445,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
   .contact__form{padding:24px}
   .field-row{grid-template-columns:1fr}
   .event-card{flex:0 0 80%}
-  .news__grid{grid-template-columns:1fr}
+  .ig__preview{grid-template-columns:repeat(3,1fr)}
   .brands__grid{grid-template-columns:repeat(3,1fr)}
   .services__grid{grid-template-columns:1fr}
   .footer__top{grid-template-columns:1fr}

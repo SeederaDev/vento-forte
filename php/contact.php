@@ -22,24 +22,35 @@ $azienda  = clean_field($_POST['azienda'] ?? '');
 $email    = clean_field($_POST['email'] ?? '');
 $telefono = clean_field($_POST['telefono'] ?? '');
 $messaggio = trim((string)($_POST['messaggio'] ?? ''));
+// oggetto opzionale: distingue le richieste (es. "Pubblicità LED Wall").
+// Se assente, vale la richiesta apertura attività.
+$oggetto  = clean_field($_POST['oggetto'] ?? '');
+// tipologia opzionale: negozio permanente / temporary store / da valutare
+$tipologia = clean_field($_POST['tipologia'] ?? '');
 
 if ($nome === '' || !valid_email($email)) {
     json_out(false, 'Controlla nome ed email e riprova.', 422);
 }
 
-$body  = "Nuova richiesta per aprire un'attività nel Parco Ventoforte\n";
+$titolo = $oggetto !== '' ? $oggetto : "Richiesta per aprire un'attività nel Parco Ventoforte";
+
+$body  = "Nuova richiesta: $titolo\n";
 $body .= "------------------------------------------------------------\n\n";
 $body .= "Nome e cognome : $nome\n";
 $body .= "Insegna/Azienda: " . ($azienda !== '' ? $azienda : '-') . "\n";
+if ($tipologia !== '') {
+    $body .= "Tipo di spazio : $tipologia\n";
+}
 $body .= "Email          : $email\n";
 $body .= "Telefono       : " . ($telefono !== '' ? $telefono : '-') . "\n\n";
 $body .= "Messaggio:\n" . ($messaggio !== '' ? $messaggio : '-') . "\n\n";
 $body .= "------------------------------------------------------------\n";
 $body .= "Inviato da ventoforte.it il " . date('d/m/Y H:i') . " (IP: $ip)\n";
 
-log_submission('contatti.log', compact('nome', 'azienda', 'email', 'telefono', 'messaggio'));
+log_submission('contatti.log', compact('oggetto', 'tipologia', 'nome', 'azienda', 'email', 'telefono', 'messaggio'));
 
-$ok = send_mail($cfg['to'], 'Richiesta apertura attività — ' . $nome, $body, $cfg, $email);
+$subject = ($oggetto !== '' ? $oggetto : 'Richiesta apertura attività') . ' — ' . $nome;
+$ok = send_mail($cfg['to'], $subject, $body, $cfg, $email);
 
 if ($ok) {
     json_out(true, 'Richiesta inviata! Ti ricontatteremo al più presto. Grazie.');

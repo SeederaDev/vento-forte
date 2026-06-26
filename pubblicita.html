@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Contatti — Apri il tuo negozio | Ventoforte Parco Commerciale</title>
-<meta name="description" content="Vuoi aprire la tua attività nel Parco Commerciale Ventoforte a Caianello (CE)? Contattaci: posizione strategica sull'uscita A1, 500 posti auto gratuiti." />
+<title>Pubblicità sul LED Wall | Ventoforte Parco Commerciale</title>
+<meta name="description" content="Promuovi il tuo brand sul maxi LED Wall di Ventoforte a Caianello (CE), all'uscita A1. Migliaia di contatti visivi ogni giorno. Richiedi informazioni." />
 <link rel="icon" href="assets/logos/ventoforte-official.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/styles.css?v=5" />
+<link rel="stylesheet" href="css/styles.css?v=4" />
 </head>
 <body>
 
@@ -32,7 +32,7 @@
       <a href="index.html#negozi" class="nav__link nav__link--has">Negozi</a>
       <a href="index.html#servizi" class="nav__link">Servizi</a>
       <a href="index.html#info" class="nav__link">Come Arrivare</a>
-      <a href="contatti.html" class="nav__link" aria-current="page">Contatti</a>
+      <a href="contatti.html" class="nav__link">Contatti</a>
     </nav>
     <div class="header__actions">
       <a href="https://maps.google.com/?q=Via+Ceraselle+183+Caianello" target="_blank" rel="noopener" class="btn btn--yellow header__tel">
@@ -48,18 +48,17 @@
 
 <main>
 
-<!-- ================= CONTATTI / APRI IL TUO NEGOZIO ================= -->
-<section class="contact" id="contatti">
+<!-- ================= PUBBLICITÀ — RICHIESTA ================= -->
+<section class="contact" id="pubblicita">
   <div class="container contact__inner">
     <div class="contact__intro reveal">
-      <span class="eyebrow-tag">Spazi commerciali</span>
-      <h2 class="section-title">Apri il tuo negozio<br>nel parco</h2>
-      <p class="muted">Vuoi portare la tua insegna a Ventoforte? Offriamo spazi sia per <strong>negozi permanenti</strong> sia per <strong>temporary store e pop-up</strong>, all'uscita A1 di Caianello, con 500 posti auto gratuiti e migliaia di famiglie ogni settimana. Raccontaci la tua idea: ti ricontatteremo per parlarne insieme.</p>
+      <span class="eyebrow-tag">Spazi pubblicitari</span>
+      <h2 class="section-title">Pubblicità sul<br>nostro LED Wall</h2>
+      <p class="muted">Il maxi totem a LED all'ingresso di Ventoforte è acceso giorno e notte e si vede anche dall'uscita A1 di Caianello. Promuovi il tuo brand dove passano ogni giorno migliaia di automobilisti e visitatori. Lascia i tuoi dati: ti invieremo formati, tariffe e disponibilità.</p>
       <ul class="contact__points">
-        <li>Posizione strategica sull'autostrada A1</li>
-        <li>Ampio bacino di clienti dell'Alto Casertano</li>
-        <li>Soluzioni per negozi permanenti e temporary store</li>
-        <li>Spazi flessibili e parcheggio gratuito</li>
+        <li>Maxi schermo LED ad alta luminosità, 24 ore su 24</li>
+        <li>Posizione strategica all'uscita autostradale A1</li>
+        <li>Migliaia di contatti visivi ogni giorno</li>
       </ul>
 
       <div class="contact__direct">
@@ -70,12 +69,13 @@
     </div>
 
     <form class="contact__form reveal" id="contactForm" action="php/contact.php" method="post" novalidate>
+      <input type="hidden" name="oggetto" value="Richiesta pubblicità LED Wall" />
       <div class="field">
         <label for="c-nome">Nome e cognome *</label>
         <input type="text" id="c-nome" name="nome" required autocomplete="name" />
       </div>
       <div class="field">
-        <label for="c-azienda">Insegna / Azienda</label>
+        <label for="c-azienda">Azienda / Brand</label>
         <input type="text" id="c-azienda" name="azienda" autocomplete="organization" />
       </div>
       <div class="field-row">
@@ -89,16 +89,8 @@
         </div>
       </div>
       <div class="field">
-        <label for="c-tipo">Tipo di spazio</label>
-        <select id="c-tipo" name="tipologia">
-          <option value="Negozio permanente">Negozio permanente</option>
-          <option value="Temporary store / pop-up">Temporary store / pop-up</option>
-          <option value="Da valutare insieme">Sono indeciso, valutiamo insieme</option>
-        </select>
-      </div>
-      <div class="field">
         <label for="c-msg">Messaggio</label>
-        <textarea id="c-msg" name="messaggio" rows="4" placeholder="Tipo di attività, mq desiderati, durata (per i temporary store), tempistiche…"></textarea>
+        <textarea id="c-msg" name="messaggio" rows="4" placeholder="Periodo, durata della campagna, materiali disponibili…"></textarea>
       </div>
       <!-- honeypot anti-spam: non compilare -->
       <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
@@ -141,7 +133,7 @@
         <li><a href="index.html#info">Come Arrivare</a></li>
         <li><a href="index.html#newsletter">Newsletter</a></li>
         <li><a href="contatti.html">Apri un Negozio</a></li>
-        <li><a href="contatti.html">Contattaci</a></li>
+        <li><a href="pubblicita.html">Pubblicità LED Wall</a></li>
       </ul>
       <div class="footer__social">
         <a href="https://www.facebook.com/p/VentoForte-Parco-Commerciale-100090333679022/" target="_blank" rel="noopener" aria-label="Facebook">

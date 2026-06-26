@@ -1,0 +1,9 @@
+# Credenziali protezione sito — NON committare mai
+.htpasswd
+
+# Dati ricevuti dai form (email iscritti, richieste) — privacy
+php/_data/
+
+# File di sistema
+.DS_Store
+Thumbs.db
